@@ -45,7 +45,7 @@ if (!empty($_SESSION)) {
                     <div class="card">
                         <div class="card-body">
                         <div class="imgProduto">
-                        <img src="agendalog3.png" alt="produto" class="produtominiatura" />
+                        <img src="agenda.png" alt="produto" class="produtominiatura" />
                            
                             <form action="login.php " method="post">
                                 
