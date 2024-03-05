@@ -42,6 +42,6 @@
             </div>
         </div>
         
-    <button type='button' class='btn btn-success mt-3 mb-5' onclick="location.href='?page=lista'">Cancelar</button>
+    <button type='button' class='btn btn-danger mt-3 mb-5' onclick="location.href='?page=lista'">Cancelar</button>
     <button type="submit" class="btn btn-primary mt-3 mb-5">Cadastrar</button>
 </form>

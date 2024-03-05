@@ -1,12 +1,13 @@
-<?php 
-    session_start();
-    if(!empty($_SESSION)){
-        echo"<script>location.href='inicio.php'</script>";
-    }
+<?php
+session_start();
+if (!empty($_SESSION)) {
+    echo "<script>location.href='inicio.php'</script>";
+}
 ?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,10 +17,15 @@
     <title>TCC_Maira</title>
 
     <style>
-        body{
+        body {
             background-color: #f2f2f2;
+            background-image: url(espacotrabalho.jpg);
+            background-size: cover;
+            background-blend-mode: overlay;
+            background-color: rgba(255, 255, 255, 0.7);
         }
-        .login{
+
+        .login {
             width: 100%;
             height: 100vh;
             align-items: center;
@@ -29,6 +35,7 @@
     </style>
 
 </head>
+
 <body>
     <div class="login">
         <div class="container">
@@ -41,7 +48,7 @@
                                 <input class="form-control" type="text" name="nome">
                                 <label for="senha">Senha:</label>
                                 <input class="form-control" type="password" name="senha">
-                                <button class="btn btn-primary mt-2" type="submit">Entrar</button>  
+                                <button class="btn btn-primary mt-2" type="submit">Entrar</button>
                             </form>
                         </div>
                     </div>
@@ -50,4 +57,5 @@
         </div>
     </div>
 </body>
+
 </html>
