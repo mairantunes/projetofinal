@@ -32,7 +32,12 @@ if (!empty($_SESSION)) {
             justify-content: center;
             display: flex;
         }
-       
+        
+        .logo img{
+            display: flex !important;
+            width: 150px;
+            margin: auto;
+        }
     </style>
 
 </head>
@@ -44,16 +49,18 @@ if (!empty($_SESSION)) {
                 <div class="col-lg-4 offset-lg-4">
                     <div class="card">
                         <div class="card-body">
-                        <div class="imgProduto">
-                        <img src="agendologo.png" alt="produto" class="produtominiatura" />
+                        
+                        <div class="logo">
+                            <img src="agenda_logo.png" alt="produto"/>
+                        </div>
                            
                             <form action="login.php " method="post">
                                 
                                 <label for="nome">Usuário:</label>
-                                <input class="form-control" type="text" name="nome">
+                                <input class="mb-2 form-control" type="text" name="nome">
                                 <label for="senha">Senha:</label>
                                 <input class="form-control" type="password" name="senha">
-                                <button class="btn btn-primary mt-2" type="submit">Entrar</button>
+                                <button class="btn btn-primary p-2 my-4 w-100" type="submit">Entrar</button>
                             </form>
                             </div>
                         </div>

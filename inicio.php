@@ -41,6 +41,11 @@ if (empty($_SESSION)) {
             align-content: baseline;
             font-size: 1.5rem !important;
         }
+        .logo{
+            display: flex !important;
+            width: 175px;
+            margin: auto;
+        }
     </style>
 </head>
 
@@ -58,9 +63,10 @@ if (empty($_SESSION)) {
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
         <div class="container ">
             <a class="navbar-brand" href="inicio.php">
-                <span class="display-6" style="font-size:1.5em"></span><img src="inicioagendabg1.png" alt="logo" class="logominiatura" />
+                <span class="display-6" style="font-size:1.5em"></span>
+                <img src="agenda_logo_h.png" alt="logo" class="logo" />
                 <div class="logo">
-                   
+                    
                 </div>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
