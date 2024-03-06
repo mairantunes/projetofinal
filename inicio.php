@@ -64,7 +64,7 @@ if (empty($_SESSION)) {
         <div class="container ">
             <a class="navbar-brand" href="inicio.php">
                 <span class="display-6" style="font-size:1.5em"></span>
-                <img src="agenda_logo_h.png" alt="logo" class="logo" />
+                <img src="aginiciolg.png" alt="logo" class="logo" />
                 <div class="logo">
                     
                 </div>
