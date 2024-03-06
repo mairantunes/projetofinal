@@ -58,7 +58,7 @@ if (empty($_SESSION)) {
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
         <div class="container ">
             <a class="navbar-brand" href="inicio.php">
-                <span class="display-6" style="font-size:1.5em"></span><img src="inicioagendabg.png" alt="logo" class="logominiatura" />
+                <span class="display-6" style="font-size:1.5em"></span><img src="inicioagendabg1.png" alt="logo" class="logominiatura" />
                 <div class="logo">
                    
                 </div>
